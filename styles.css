@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.wrapper {
+  /* background-image: url('https://img.freepik.com/free-vector/gradient-dynamic-lines-background_23-2149005728.jpg'); */
+  /* background-image: url("https://img.freepik.com/free-photo/multicolored-painted-watercolor-texture-background_23-2147835860.jpg"); */
+  background-image: url("https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-2776.jpg");
+
+  background-size: cover;
+  background-position: top bottom;
+  background-repeat: no-repeat;
+  background-attachment: scroll; /* Make background image scroll with content */
+  min-height: 100vh; /* Ensure wrapper covers viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 3rem;
+}
+
+.header-div{
+    margin: 1.5rem;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.header-links{
+    color: black;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.container{
+    padding-top: 5.5rem;
+    height: 47rem;
+}
+
+#contact{
+    height: 39.5rem;
+}
+
+.footer{
+    height: 7.5rem;
+    background-color: black;
+    opacity: 0.6;
+
+    font-size: 1.5rem;
+    color: wheat;
+}
