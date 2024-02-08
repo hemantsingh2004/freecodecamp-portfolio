@@ -4,15 +4,12 @@
   border: 0;
 }
 .wrapper {
-  /* background-image: url('https://img.freepik.com/free-vector/gradient-dynamic-lines-background_23-2149005728.jpg'); */
-  /* background-image: url("https://img.freepik.com/free-photo/multicolored-painted-watercolor-texture-background_23-2147835860.jpg"); */
   background-image: url("https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-2776.jpg");
-
   background-size: cover;
-  background-position: top bottom;
+  background-position: left bottom;
   background-repeat: no-repeat;
-  background-attachment: scroll; /* Make background image scroll with content */
-  min-height: 100vh; /* Ensure wrapper covers viewport height */
+  background-attachment: scroll;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -20,7 +17,8 @@
 .header{
     position: fixed;
     width: 100%;
-    background: transparent;
+    background-color: grey;
+    opacity: 0.4;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -36,7 +34,7 @@ a:link{
 }
 
 .header-links{
-    color: black;
+    color: red;
     font-weight: 400;
     font-size: 2rem;
 }
@@ -44,6 +42,29 @@ a:link{
 .container{
     padding-top: 5.5rem;
     height: 47rem;
+}
+
+#about{
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(8, 1fr);
+}
+
+#welcome-section{
+    grid-area: 2 / 2 / 4 / 7;
+}
+
+#welcome-section h2{
+    font-size: 3.5rem;
+}
+
+#welcome-section h1{
+    font-size: 7rem;
+}
+
+#projects{
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 500;
 }
 
 #contact{
