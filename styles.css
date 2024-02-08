@@ -67,6 +67,32 @@ a:link{
     font-weight: 500;
 }
 
+.project-tiles{
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-tile{
+    height: 20rem;
+    width: 12rem;
+    overflow: hidden;
+}
+
+.project-tile img{
+    height: 15rem;
+    width: 12rem;
+    object-fit: cover;
+}
+
+.project-tile a:link{
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
 #contact{
     height: 39.5rem;
 }
